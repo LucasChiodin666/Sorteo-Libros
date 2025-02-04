@@ -34,5 +34,5 @@ function sortearAmigo() {
     let nombreSorteado = amigos[indiceAleatorio];
     
     let resultado = document.getElementById("resultado");
-    resultado.innerHTML = `<li>📖 ${nombreSorteado} es el ganador del sorteo!</li>`;
+    resultado.innerHTML = `<li>📖 ${nombreSorteado} gana el sorteo!</li>`;
 }
